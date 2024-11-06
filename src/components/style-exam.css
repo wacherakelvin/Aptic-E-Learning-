@@ -1,0 +1,94 @@
+/* styles.css */
+
+/* General container styles */
+.upload-learning-material-container,
+.exam-creation-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Form input styles */
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Delete button style */
+.delete-button {
+  margin-left: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Questions container styles */
+.question-container {
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Exam creation container styles */
+.create-exam-button {
+  background-color: #28a745;
+}
+
+.create-exam-button:hover {
+  background-color: #218838;
+}
+
+/* Error and success messages */
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  h3, h4 {
+    margin: 0;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
